@@ -80,6 +80,7 @@ Lembrando que a máquina e o dispositivo (Android/IOS) devem estar na mesma rede
 * [React Native](https://reactnative.dev/) - O framework usado para desenvolver aplicativos para os sistemas Android e iOS de forma nativa
 * [NPX](https://maven.apache.org/) - ferramenta de interface de linha de comando, cujo propósito é facilitar a instalação e o gerenciamento de dependências hospedadas no registro do npm
 * [Typescript](https://www.typescriptlang.org/) - Superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando recursos que não estão presentes de maneira nativa na linguagem.
+* [Expo](https://expo.dev/) - conjunto de ferramentas e serviços construídos em torno de plataformas nativas e React Native que ajudam você a desenvolver, construir, implantar e iterar rapidamente em aplicativos iOS, Android e web a partir da mesma base de código JavaScript/TypeScript.
 
 
 ## :camera_flash: ScreenShot
