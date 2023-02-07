@@ -1,102 +1,87 @@
-# project react native iamhere
-O aplicativo I AM HERE, serve para listar pessoas convidadas (Participantes) de eventos, podendo então, adicionar e remover participantes da lista, como eu mencionei anteriomente, é um projeto simples, meu primeiro projeto completo feito com React Native, iniciando assim, meu aprendizado nessa tecnologia maravilhosa purple_heart
+# Projeto: I AM HERE
 
-# Título do projeto
+O aplicativo I AM HERE, serve para listar pessoas participantes de eventos, podendo adicionar e remover participantes da lista. O app também conta com algumas funcionalidades interessantes, por exemplo:
 
-Um parágrafo da descrição do projeto vai aqui
+* validar a existe de nomes na lista, podendo apenas adicionar um participante, caso ele não esteja na lista.
+* Exibição de Alerts, para mostrar mensagens de retorno de ações feitas pelo o usuário, e para pedir confirmações do usuário (Para Remover um participante da lista, por exemplo).
+
 
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
-
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+* cURL
+* Node.js (LTS);
+* npm (já vem instalado com o Node);
+* expo-cli
+* Expo GO (Android e/ou iOS)
 
-```
-Dar exemplos
-```
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
+Para instalar o cURL, caso já não esteja instalado em sua máquina, use o comando: 
 
 ```
-Dar exemplos
+sudo apt-get install curl
 ```
-
-E repita:
-
-```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
+Para verificar a instação do cURL, rode o comando:
 
 ```
-Dar exemplos
+curl --version
 ```
 
-### ⌨️ E testes de estilo de codificação
+Para instalar o Node e o NPM, que já vem com a instalação do Node, recomendo utilizar o NVM, para instalar o NVM, acesse o [Repositório Oficial do NVM](https://github.com/nvm-sh/nvms);
 
-Explique que eles verificam esses testes e porquê.
+Depois de instalado o NVM e uma versão do Node (recomendo a versão 16), você pode validar as instalações utilizando os comandos:
 
 ```
-Dar exemplos
+node -v
+npm -v
 ```
 
-## 📦 Implantação
+## Usando ExpoCLI
+O Expo CLI faz parte do pacote `expo` e você pode usá-lo aproveitando `npx` — um executor de pacote Node.js. Nenhuma instalação é necessária. Em caso de dúvidas, acesse o [Site Oficial do Expo](https://expo.dev/);
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+## Expo GO
+
+Expo Go é um aplicativo que está disponível nas lojas de apps da google e apple. Ele permite que você abra os aplicativos que estão sendo servidos através do Expo CLI apenas lendo o QR Code gerado no browser ou no terminal.
+
+
+## 📦 Utilizando o App
+
+Antes de começar, clone o repositório:
+
+```
+git clone git@github.com:MaykonFreitas17/project-react-native-iamhere.git
+```
+Acesse a pasta do projeto
+
+```
+cd project-react-native-iamhere
+```
+Instale as dependências do projeto
+
+```
+npm install
+```
+Para executar o aplicativo usando o Expo CLI e o Expo GO, rode o comando:
+
+```
+npx expo start
+```
+Após executar o comando, será gerado uma QR Code no terminal, acesse o aplicativo do Expo GO, e selecione a opção `Scan QR Code`, e escanei o QR Code. E Pronto, provavelmente, o aplicativo vai estar rodando no seu dispositivo físico.
+
+Lembrando que a máquina e o dispositivo (Android/IOS) devem estar na mesma rede de internet.
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+* [React Native](https://reactnative.dev/) - O framework usado para desenvolver aplicativos para os sistemas Android e iOS de forma nativa
+* [NPX](https://maven.apache.org/) - ferramenta de interface de linha de comando, cujo propósito é facilitar a instalação e o gerenciamento de dependências hospedadas no registro do npm
+* [Typescript](https://www.typescriptlang.org/) - Superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando recursos que não estão presentes de maneira nativa na linguagem.
 
 
+## :camera_flash: ScreenShot
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+⌨️ O módelo do README.md utilizado nesse projeto foi feito por [Armstrong Lohãns](https://gist.github.com/lohhans)
