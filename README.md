@@ -87,16 +87,16 @@ Lembrando que a máquina e o dispositivo (Android/IOS) devem estar na mesma rede
 ## :camera_flash: ScreenShot
 
 #### Tela Principal do Aplicativo (sem participantes adicionados)
-<img src="./assets/app-iamhere-home.jpeg" width="145px">
+<img src="./assets/app-iamhere-home.jpeg" width="290px">
 
 #### Tela Principal do Aplicativo (com participantes adicionados)
-<img src="./assets/app-iamhere-home-with-data.jpeg" width="145px">
+<img src="./assets/app-iamhere-home-with-data.jpeg" width="290px">
 
 #### Tela Principal do Aplicativo (tentando adicionar um participante existente na lista)
-<img src="./assets/app-iamhere-home-add-participant.jpeg" width="145px">
+<img src="./assets/app-iamhere-home-add-participant.jpeg" width="290px">
 
 #### Tela Principal do Aplicativo (removendo um participante da lista)
-<img src="./assets/app-iamhere-home-remove-participant.jpeg" width="145px">
+<img src="./assets/app-iamhere-home-remove-participant.jpeg" width="290px">
 
 ---
 ⌨️ O módelo do README.md utilizado nesse projeto foi feito por [Armstrong Lohãns](https://gist.github.com/lohhans)
