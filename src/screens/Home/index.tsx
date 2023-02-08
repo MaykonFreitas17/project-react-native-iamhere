@@ -14,6 +14,9 @@ import { styles } from './styles';
 // Components Imports
 import { Participant } from '../../components/Participant';
 
+// Helpers
+import getCurrentDate from '../../helpers/getCurrenteDate';
+
 export default function Home() {
   const [participantName, setParticipantsName] = useState<string>('');
   const [participants, setParticipants] = useState<string[]>([]);
@@ -39,7 +42,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>Nome do Evento</Text>
-      <Text style={styles.eventDate}>segunda, 6 de Janeiro 2023</Text>
+      <Text style={styles.eventDate}>{getCurrentDate()}</Text>
 
       <View style={styles.containerForm}>
         <TextInput
