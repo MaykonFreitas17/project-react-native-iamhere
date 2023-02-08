@@ -73,7 +73,7 @@ npx expo start
 ```
 Após executar o comando, será gerado uma QR Code no terminal, acesse o aplicativo do Expo GO, e selecione a opção `Scan QR Code`, e escanei o QR Code. E Pronto, provavelmente, o aplicativo vai estar rodando no seu dispositivo físico.
 
-Lembrando que a máquina e o dispositivo (Android/IOS) devem estar na mesma rede de internet.
+⚠️ Lembrando que a máquina e o dispositivo (Android/IOS) devem estar na mesma rede de internet.
 
 ## 🛠️ Construído com
 
