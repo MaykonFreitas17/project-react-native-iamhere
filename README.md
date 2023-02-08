@@ -49,7 +49,7 @@ O Expo CLI faz parte do pacote `expo` e você pode usá-lo aproveitando `npx` �
 Expo Go é um aplicativo que está disponível nas lojas de apps da google e apple. Ele permite que você abra os aplicativos que estão sendo servidos através do Expo CLI apenas lendo o QR Code gerado no browser ou no terminal.
 
 
-## 📦 Utilizando o App
+## :iphone: Utilizando o App
 
 Antes de começar, clone o repositório:
 
