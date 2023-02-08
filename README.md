@@ -98,5 +98,14 @@ Após executar o comando, será gerado uma QR Code no terminal, acesse o aplicat
 #### Tela Principal do Aplicativo (removendo um participante da lista)
 <img src="./assets/app-iamhere-home-remove-participant.jpeg" width="290px">
 
+#### Adicionando um novo participante
+<img src="./assets/app-iamhere-home-add.gif" width="290px">
+
+#### Adicionando um participante existente
+<img src="./assets/app-iamhere-home-add-exiting.gif" width="290px">
+
+#### Removendo um participante
+<img src="./assets/app-iamhere-home-removing.gif" width="290px">
+
 ---
 ⌨️ O módelo do README.md utilizado nesse projeto foi feito por [Armstrong Lohãns](https://gist.github.com/lohhans)
